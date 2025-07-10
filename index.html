@@ -2,19 +2,45 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Solo Leveling Fan Page</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solo Leveling | Shadow World</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="overlay"></div>
-    <main class="content">
-        <h1 class="title">Solo Leveling</h1>
-        <p class="tagline">Arise, Shadow Monarch.</p>
-        <a href="#" class="btn">Enter Dungeon</a>
-    </main>
+
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1 class="title">Solo Leveling</h1>
+            <p class="subtitle">I alone level up...</p>
+            <a href="#about" class="btn">Enter the Shadow Realm</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About Jin-Woo</h2>
+        <p>Sung Jin-Woo, once the weakest hunter, rose from nothing to become the Shadow Monarch. Follow his journey
+            through dungeons, darkness, and destiny.</p>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Join the Guild</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Message the Shadow Monarch..." required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>⚔️ Solo Leveling Fan Site • © 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
